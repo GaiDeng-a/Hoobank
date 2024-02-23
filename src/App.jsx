@@ -40,8 +40,8 @@ function App() {
 				<CardDeal />
 				<Clients />
 				<CTA />
-				<Footer />
 				<Testimonials />
+				<Footer />
 
 				</div>
 
