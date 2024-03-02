@@ -1,5 +1,5 @@
 import styles from "./style";
-import Navbar from './components/Navbar'
+
 import {
 	Billing,
 	Business,
@@ -7,7 +7,7 @@ import {
 	Clients,
 	CTA,
 	Footer,
-	// Navbar,
+	Navbars,
 	Stats,
 	Testimonials,
 	Hero,
@@ -18,7 +18,7 @@ function App() {
 		<div className="bg-primary w-full overflow-hidden">
 			<div className={`${styles.paddingX} ${styles.flexCenter}`}>
 				<div className={`${styles.boxWidth}`}>
-					<Navbar />
+					<Navbars />
 				</div>
 			</div>
 
