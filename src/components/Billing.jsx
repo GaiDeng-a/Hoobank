@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { google, apple, bill } from "../assets";
 import styles, { layout } from "../style";
 
@@ -25,12 +26,18 @@ const Billing = () => {
 					corporis autem!
 				</p>
 				<div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-					<img
+					<motion.img
+						whileTap={{
+							scale: 0.9,
+						}}
 						src={apple}
 						alt="Apple appstore"
 						className=" w-[128px] h-[42px] object-contain mr-5 cursor-pointer  "
 					/>
-					<img
+					<motion.img
+						whileTap={{
+							scale: 0.9,
+						}}
 						src={google}
 						alt="Google playstore"
 						className=" w-[128px] h-[42px] object-contain  cursor-pointer  "
