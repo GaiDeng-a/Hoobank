@@ -1,4 +1,5 @@
 import styles from "./style";
+import Navbar from './components/Navbar'
 import {
 	Billing,
 	Business,
@@ -6,7 +7,7 @@ import {
 	Clients,
 	CTA,
 	Footer,
-	Navbar,
+	// Navbar,
 	Stats,
 	Testimonials,
 	Hero,
