@@ -5,7 +5,7 @@ import { card } from "../assets"
 
 const CardDeal = () => {
   return (
-    <section className={`${styles.section} flex flex-row`}>
+    <section className={`${styles.section}`}>
       <div className={layout.sectionInfo}>
         <h2 className={`${styles.heading2}`}>Find a better card deal <br className="sm:block hidden" />in a few easy steps.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium asperiores, quasi esse sapiente voluptatum rerum rem ex fugiat autem reprehenderit quaerat, voluptate incidunt cum illo expedita quae? Error, sequi autem!</p>
